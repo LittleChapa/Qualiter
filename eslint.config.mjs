@@ -39,6 +39,16 @@ export default [
     },
   },
 
+  {
+    settings: {
+      'import/resolver': {
+        node: {
+          extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        },
+      },
+    },
+  },
+
   // Исключаем служебные каталоги
   {
     ignores: ['node_modules/', '.next/', 'out/', 'build/', 'next-env.d.ts'],
